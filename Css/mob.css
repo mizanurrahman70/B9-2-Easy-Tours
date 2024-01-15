@@ -1,0 +1,48 @@
+@media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+        margin: 15px 15px;
+        align-items: start;
+
+    }
+
+    .logo {
+       
+        display: flex;
+        justify-content: space-between;
+    }
+    .bar{
+        align-items: center;
+        justify-content: end;
+    }
+    .bar img{
+        visibility: visible;
+        width: 24px;
+        height: 24px;
+       
+    }
+
+    .logo img {
+        width: 28.724px;
+        height: 33.516px;
+
+    }
+
+    .logo h1 p {
+        color: #131318;
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+    .logo h1{
+        margin-right: 100px;
+        color: rgb(19, 19, 24);
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 600;
+        margin-left: 16px;
+    }
+    .item ul{
+        visibility: hidden
+    }
+}
+

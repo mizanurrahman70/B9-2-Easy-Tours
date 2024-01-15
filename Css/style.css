@@ -28,11 +28,20 @@ nav {
     font-weight: 800;
     margin-left: 16px;
 }
+.bar{
 
+}
+.bar img{
+    visibility: hidden;
+    width: 24px;
+height: 24px;
+
+}
 .tour {
     color: #FF5400;
     font-size: 2.25rem;
     font-weight: 800;
+    ma
 }
 
 .item ul {
