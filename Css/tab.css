@@ -2,5 +2,13 @@
     nav {
         flex-direction: column;
     }
-    
+    .banner-section {
+     margin: 0 auto;
+     width: 100%;
+     height: 100%;
+    }
+   .banner-input {
+    display: grid;
+    grid-template-columns: repeat(2, );
+   } 
 }

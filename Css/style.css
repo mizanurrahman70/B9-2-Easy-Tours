@@ -117,14 +117,79 @@ nav {
     background: #FFF;
     border: none;
 }
-.prinari-btn{
+
+.prinari-btn {
     width: 174px;
-height: 52px;
-border-radius: 8px;
-background: #FF5400;
-color: #FFF;
-text-align: center;
-font-size: 16px;
-font-weight: 700;
-border: none;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+.prinari-btn i {
+    margin-right: 8px;
+}
+
+.banner-input input::placeholder {
+    color: rgba(19, 19, 24, 0.50);
+
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* populer section start */
+.populer-section {
+
+    margin-left: 135px;
+    margin-right: 135px;
+    border: 1px solid;
+    
+
+}
+
+.populer-container {
+    display: flex;
+    justify-content: center;
+}
+
+.populer-contain h1 {
+    color: #131318;
+ 
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.populer-contain p {
+    width: 577px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+
+}
+
+.little-p li {
+    width: 525px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.little-p h3 {
+    width: 530px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
 }
