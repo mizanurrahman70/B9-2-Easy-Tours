@@ -28,15 +28,16 @@ nav {
     font-weight: 800;
     margin-left: 16px;
 }
-.bar{
 
-}
-.bar img{
+.bar {}
+
+.bar img {
     visibility: hidden;
     width: 24px;
-height: 24px;
+    height: 24px;
 
 }
+
 .tour {
     color: #FF5400;
     font-size: 2.25rem;
@@ -60,4 +61,70 @@ height: 24px;
     text-align: center;
     font-size: 1.1rem;
     font-weight: 400;
+}
+
+/* benner section start */
+.banner-section {
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13.png");
+    border-radius: 16px;
+    border: 1px solid;
+    width: 1170px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.container {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.banner-title h1 {
+    margin-top: 106px;
+    margin-bottom: 16px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+
+}
+
+
+.banner-p p {
+    width: 676px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+
+}
+
+.banner-input {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.banner-input input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+.prinari-btn{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+border: none;
 }

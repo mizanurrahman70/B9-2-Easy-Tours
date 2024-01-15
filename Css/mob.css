@@ -7,19 +7,21 @@
     }
 
     .logo {
-       
+
         display: flex;
         justify-content: space-between;
     }
-    .bar{
+
+    .bar {
         align-items: center;
         justify-content: end;
     }
-    .bar img{
+
+    .bar img {
         visibility: visible;
         width: 24px;
         height: 24px;
-       
+
     }
 
     .logo img {
@@ -33,7 +35,8 @@
         font-size: 21.543px;
         font-weight: 800;
     }
-    .logo h1{
+
+    .logo h1 {
         margin-right: 100px;
         color: rgb(19, 19, 24);
         font-size: 1.25rem;
@@ -41,8 +44,28 @@
         font-weight: 600;
         margin-left: 16px;
     }
-    .item ul{
+
+    .item ul {
         visibility: hidden
     }
-}
 
+    /* benner section style */
+    .banner-section {
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner-title h1 {
+        color: #FFF;
+        font-size: 22px;
+        font-weight: 800;
+        margin-top: 32px;
+    }
+    .banner-p{
+        width: 200px;
+    }
+    .banner-input{
+        flex-direction: column;
+    }
+}
