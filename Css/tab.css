@@ -1,5 +1,6 @@
 @media screen and (min-width:576px) and (max-width:992px) {
-    nav {
+    nav,
+    .populer-container,  {
         flex-direction: column;
     }
     .banner-section {
@@ -10,5 +11,18 @@
    .banner-input {
     display: grid;
     grid-template-columns: repeat(2, );
+   } 
+   .banner-section{
+    height: 100%;
+    max-width: 100%;
+   }
+   body{
+    margin: 4px 2px;
+   }
+   .banner-input{
+    justify-content: space-evenly
+   }
+   .populer-section{
+    margin: 0;
    } 
 }
