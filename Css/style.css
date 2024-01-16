@@ -116,6 +116,7 @@ nav {
     border-radius: 8px;
     background: #FFF;
     border: none;
+    position: relative;
 }
 
 .prinari-btn {
@@ -542,7 +543,45 @@ font-size: 32px;
 font-weight: 800;
 text-align: center;
 }
-
+/* our speacial service style */
+.service-section{
+    margin: 150px 300px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.service-container{
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+}
+.service-section h1{
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-weight: 800;
+    font-size: 40px;
+  
+}
+.service{
+    width: 250px;
+    justify-content: space-around;
+    margin-left: 150px;
+    
+}
+.service h1{
+    font-size: 30px;
+    font-weight: 800;
+    margin: 30px 0 30px 15px;
+}
+.service p{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+margin-left: 5px;
+margin-bottom: 30px;
+}
 
 
 
