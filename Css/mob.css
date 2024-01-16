@@ -236,6 +236,42 @@
         width: 130px;
         height: 40px;
     }
+    /* Perfect-section style start */
+    .Perfect-section{
+        margin: 2px 3px;
+    }
+  .Perfect-container{
+    flex-direction: column;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .Perfect-title{
+   margin-left: 30px;
+  }
+  .Perfect-title h1{
+    width: 248px;
+    font-size: 20px;
+  }
+  .Perfect-title p{
+    width: 335px;
+
+  }
+.Perfect-title ul > li{
+    width: 335px;
+}
+.Perfect-title button{
+    margin-bottom: 15px;
+}
+.Perfect-img{
+    width: 335px;
+height: 200px;
+margin: 0 auto;
+}
+.Perfect-img h1{
+    margin: 70px 29px;
+}
+
+
 
     /* Newsletter-section style */
     .Newsletter-section {
