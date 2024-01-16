@@ -148,7 +148,7 @@ nav {
 
     margin-left: 135px;
     margin-right: 135px;
-   
+
 
 
 }
@@ -387,18 +387,19 @@ nav {
     margin-left: 30px;
 }
 
-.deal-contadiner-scend{
-margin-top: 80px;
+.deal-contadiner-scend {
+    margin-top: 80px;
     width: 1170px;
-height: 500px;
+    height: 500px;
     background-image: url("../Images/Group\ 40.png");
-   margin-bottom: 40px;
+    margin-bottom: 40px;
 }
-#deal-scend{
-    
-   
+
+#deal-scend {
+
+
     margin-left: 40px;
-    
+
 }
 
 
@@ -406,58 +407,63 @@ height: 500px;
 
 
 /* Perfect-section style start */
-.Perfect-section{
+.Perfect-section {
     margin: 100px 300px;
 }
-.Perfect-container{
+
+.Perfect-container {
     display: flex;
-    
-}
-.Perfect-title h1{
-    width: 448px;
-    color: #131318;
-font-size: 40px;
-font-weight: 800;
-line-height: 60px;
-margin-bottom: 24px;
 
 }
-.Perfect-title p{
+
+.Perfect-title h1 {
+    width: 448px;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 24px;
+
+}
+
+.Perfect-title p {
     width: 532px;
     color: #5A5A5D;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
-.Perfect-title ul > li{
+
+.Perfect-title ul>li {
     width: 518px;
     margin-top: 24px;
     margin-bottom: 16px;
     color: #131318;
-font-size: 16px;
-font-weight: 700;
-line-height: 26px; 
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
 
 }
 
-.Perfect-img{
+.Perfect-img {
     width: 610px;
-height: 424px;
-background-image:linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 40089.png');
-justify-content: center;
-align-items: center;
+    height: 424px;
+    background-image: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 40089.png');
+    justify-content: center;
+    align-items: center;
 }
-.Perfect-img h1{
+
+.Perfect-img h1 {
     width: 276px;
     color: #FFF;
-text-align: center;
-font-size: 24px;
-font-weight: 700;
-line-height: 36px; 
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
 
-justify-content: center;
-align-items: center;
-margin:170px 160px ;
+    justify-content: center;
+    align-items: center;
+    margin: 170px 160px;
 }
 
 /* Newsletter section start */
@@ -471,8 +477,10 @@ margin:170px 160px ;
 }
 
 .Newsletter-form {
-    /* width: 1440px;
-    height: 6940px; */
+    width: 460px;
+    height: 422px;
+    border-radius: 16px;
+border: 1px solid #FF5400;
 }
 
 .Newsletter-form h1 {
@@ -511,76 +519,85 @@ margin:170px 160px ;
     margin-left: 40px;
     border: none;
 }
-.Newsletter-img{
-    margin-left: 80px;
-   
+
+.Newsletter-img {
+    margin-left: 20px;
+
 }
-.circle{
+
+.circle {
     position: relative;
-   margin-top: -175px;
-   margin-left: 400px;
-   border-radius: 16px;
-background-color: #FF5400;
-   align-items: center;
-   justify-content: center;
-   transform: rotate(-36deg);
+    margin-top: -175px;
+    margin-left: 400px;
+    border-radius: 16px;
+    background-color: #FF5400;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-36deg);
 
     width: 260px;
-height: 100px
-
+    height: 100px
 }
-.circle h2{
+
+.circle h2 {
     color: #FFF;
     text-align: center;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    
+
 }
-.circle h1{
+
+.circle h1 {
     color: #FFF;
-font-size: 32px;
-font-weight: 800;
-text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
 }
+
 /* our speacial service style */
-.service-section{
+.service-section {
     margin: 150px 300px;
     background: rgba(19, 19, 24, 0.05);
 }
-.service-container{
+
+.service-container {
     justify-content: space-around;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-around;
 }
-.service-section h1{
+
+.service-section h1 {
     align-items: center;
     justify-content: center;
     margin-left: 300px;
     margin-top: 50px;
     font-weight: 800;
     font-size: 40px;
-  
+
 }
-.service{
+
+.service {
     width: 250px;
     justify-content: space-around;
     margin-left: 150px;
-    
+
 }
-.service h1{
+
+.service h1 {
     font-size: 30px;
     font-weight: 800;
     margin: 30px 0 30px 15px;
 }
-.service p{
+
+.service p {
     color: #5A5A5D;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px; 
-margin-left: 5px;
-margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 5px;
+    margin-bottom: 30px;
 }
 
 
