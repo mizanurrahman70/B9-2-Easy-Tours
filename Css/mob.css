@@ -37,7 +37,7 @@
     }
 
     .logo h1 {
-        margin-right: 300px;
+        margin-right: 100px;
         color: rgb(19, 19, 24);
         font-size: 1.25rem;
         font-style: normal;
@@ -70,21 +70,32 @@
     }
     /* populer section */
     .populer-section{
-        margin: 0 2px;
+        margin: 2px 2px;
     }
     .populer-container{
         flex-direction: column;
         gap: 24px;
+        justify-content: left;
     }
     .populer-contain{
         max-width: 100%;
     }
-    .populer-contain p{
+    .populer-contain p,
+    .populer-contain h3
+    {
      max-width: 100%;
      max-height: 100%;
+     width: 335px;
+     justify-content: center;
+     margin-left: 5px;
     }
     .contain-img img{
     max-width: 100%;
     max-height: 100%;
+    }
+    .little-p ul li{
+        width: 335px;
+        margin-left: 20px;
+
     }
 }
