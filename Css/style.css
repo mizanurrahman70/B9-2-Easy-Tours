@@ -67,7 +67,7 @@ nav {
 .banner-section {
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13.png");
     border-radius: 16px;
-    border: 1px solid;
+
     width: 1170px;
     height: 500px;
     margin: 50px auto;
@@ -147,7 +147,7 @@ nav {
 
     margin-left: 135px;
     margin-right: 135px;
-    border: 1px solid;
+   
 
 
 }
@@ -385,6 +385,25 @@ nav {
 .deal-dtl button {
     margin-left: 30px;
 }
+
+.deal-contadiner-scend{
+margin-top: 80px;
+    width: 1170px;
+height: 500px;
+    background-image: url("../Images/Group\ 40.png");
+   margin-bottom: 40px;
+}
+#deal-scend{
+    
+   
+    margin-left: 40px;
+    
+}
+
+
+
+
+
 /* Perfect-section style start */
 .Perfect-section{
     margin: 100px 300px;
@@ -549,6 +568,7 @@ footer {
     margin-bottom: 15px;
     text-align: center;
     justify-content: center;
+    padding-top: 110px;
 }
 
 .footer-p p {

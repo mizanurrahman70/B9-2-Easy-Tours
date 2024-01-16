@@ -236,6 +236,25 @@
         width: 130px;
         height: 40px;
     }
+ .deal-contadiner-scend{
+   
+    width: 335px;
+    height: 600px;
+    object-fit: contain;
+    background-repeat: ;
+    border: 2px solid;
+ }
+ #deal-scend{
+    margin-left: 15px;
+ }
+
+
+
+
+
+
+
+
     /* Perfect-section style start */
     .Perfect-section{
         margin: 2px 3px;
