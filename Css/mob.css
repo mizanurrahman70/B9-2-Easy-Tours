@@ -1,7 +1,7 @@
 @media screen and (max-width:576px) {
     nav {
         flex-direction: column;
-        margin: 15px 15px;
+        margin: 0 15px;
         align-items: start;
 
     }
@@ -64,8 +64,9 @@
         font-weight: 800;
         margin-top: 32px;
     }
-    .banner-p{
-        width: 200px;
+    .banner-p p{
+       max-width: 100%;
+        
     }
     .banner-input{
         flex-direction: column;
