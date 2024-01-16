@@ -46,7 +46,9 @@
     }
 
     .item ul {
-        visibility: hidden
+        visibility: hidden;
+        display: block;
+
     }
 
     /* benner section style */
@@ -97,5 +99,35 @@
         width: 335px;
         margin-left: 20px;
 
+    }
+    /* Destination-scetion */
+    .Destination-scetion{
+        margin: 5px 2px;
+    }
+    .Destination-title {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        justify-content: center;
+    }
+    .Destination-title h1 {
+    
+        margin-bottom: 7px;
+    }
+    .Destination-title p {
+        width: 100%;
+        color: rgba(19, 19, 24, 0.70);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-left: 0px;
+    }
+    .img-1,
+    .img-3,
+    .img-2{
+         flex-direction: column;
+    }
+    .main-img{
+        width: 95%;
     }
 }

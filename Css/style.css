@@ -148,18 +148,18 @@ nav {
     margin-left: 135px;
     margin-right: 135px;
     border: 1px solid;
-    
+
 
 }
 
 .populer-container {
     display: flex;
-   justify-content: center;
+    justify-content: center;
 }
 
 .populer-contain h1 {
     color: #131318;
- 
+
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
@@ -193,4 +193,49 @@ nav {
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 32px;
+}
+
+/* Destination-scetion style */
+.Destination-scetion {
+    margin: 0 300px;
+}
+
+.Destination-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 48px;
+    justify-content: center;
+}
+
+.Destination-title h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.Destination-img{
+    gap: 24px;
+}
+.Destination-title p {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 300px;
+}
+.img-1{
+   display: flex;
+   gap: 24px;
+   margin-bottom: 24px;
+}
+.img-3{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+    object-fit: contain;
+}
+.img-2{
+    display: flex;
+    gap: 24px;
 }
