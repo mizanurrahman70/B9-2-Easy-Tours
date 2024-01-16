@@ -237,6 +237,55 @@
         height: 40px;
     }
 
+    /* Newsletter-section style */
+    .Newsletter-section {
+        margin: 2px 3px;
+    }
+
+    .Newsletter-container {
+        flex-direction: column;
+    }
+
+    .Newsletter-form input {
+        width: 288px;
+        height: 52px;
+    }
+
+    .Subscribe-btn {
+        width: 288px;
+        height: 52px;
+        margin-bottom: 24px;
+
+    }
+
+    .Newsletter-img {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Newsletter-img img {
+        width: 100%;
+        height: 100%;
+        margin-left: -40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .circle {
+        width: 150.023px;
+        height: 70.268px;
+        margin-top: -105px;
+        margin-left: 90px;
+
+    }
+    .circle h1{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+
+
+
     /* footer section start */
     footer {
         max-width: 100%;
