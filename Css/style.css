@@ -287,15 +287,96 @@ nav {
     line-height: 26px;
     margin-left: 32px;
 }
-#choose-2{
+
+#choose-2 {
     border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
 }
-#chose-price{
+
+#chose-price {
     border-radius: 16px;
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
-margin: 0 auto;
-margin-top: 24px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+/* Deals-section start */
+.Deals-section {
+    margin: 100px 300px;
+}
+
+.deal-section-1 {
+    background-image: url("../Images/Group\ 39.png");
+    border-radius: 16px;
+    width: 1170px;
+    height: 500px;
+   
+
+}
+
+.deal-containt {
+    width: 579px;
+    height: 380px;
+    align-items: center;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    border: 2px solid;
+   
+ position: absolute;
+ margin: 55px 55px 55px 535px;
+    
+
+
+}
+
+.deal-header {
+    display: flex;
+    margin: 52px 0 26px 30px;
+    
+}
+
+.deal-header {
+    margin-right: 24px;
+}
+.deal-header i{
+    margin-right: 4px;
+  
+}
+.deal-header h3{
+    margin-right: 24px;
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+}
+.deal-dtl h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    margin-left: 30px;
+  
+}
+
+.deal-dtl p {
+    width: 452px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 30px;
+}
+.deal-dtl h1{
+    color: #FF5400;
+font-size: 20px;
+font-weight: 800;
+margin-left:30px ;
+margin-top: 16px;
+margin-bottom: 25px;
+}
+.deal-dtl button{
+    margin-left: 30px;
 }
