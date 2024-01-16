@@ -245,6 +245,18 @@ nav {
     display: flex;
     gap: 24px;
 }
+.img-1 p, .img-3 p{
+    position: relative;
+    top: -150px;
+    left: 200px;
+    color: #FF5400;
+    color: #FFF;
+
+
+
+font-weight: 800;
+}
+
 
 /* Choose-section start */
 .Choose-section {
