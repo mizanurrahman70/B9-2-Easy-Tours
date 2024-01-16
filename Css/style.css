@@ -213,9 +213,11 @@ nav {
     font-weight: 800;
     margin-bottom: 24px;
 }
-.Destination-img{
+
+.Destination-img {
     gap: 24px;
 }
+
 .Destination-title p {
     width: 643px;
     color: rgba(19, 19, 24, 0.70);
@@ -224,18 +226,76 @@ nav {
     line-height: 26px;
     margin-left: 300px;
 }
-.img-1{
-   display: flex;
-   gap: 24px;
-   margin-bottom: 24px;
+
+.img-1 {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
 }
-.img-3{
+
+.img-3 {
     display: flex;
     gap: 24px;
     margin-bottom: 24px;
     object-fit: contain;
 }
-.img-2{
+
+.img-2 {
     display: flex;
     gap: 24px;
+}
+
+/* Choose-section start */
+.Choose-section {
+    margin: 0 300px;
+}
+
+.Choo-little-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.choose-title {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+
+}
+
+.choose-title img {
+    margin: 32px;
+    width: 64px;
+    height: 64px;
+}
+
+.choose-title h1 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 32px;
+    margin-bottom: 20px;
+}
+
+.choose-title p {
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 32px;
+}
+#choose-2{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+#chose-price{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+margin: 0 auto;
+margin-top: 24px;
 }
