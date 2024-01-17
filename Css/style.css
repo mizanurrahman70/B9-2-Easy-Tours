@@ -419,9 +419,11 @@ font-weight: 800;
     margin-left: 40px;
 
 }
-
-
-
+#parfact-up-btn{
+margin-left: 760px;
+/* visibility: hidden; */
+margin-top: -70px;
+}
 
 
 /* Perfect-section style start */
