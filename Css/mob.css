@@ -1,8 +1,16 @@
 @media screen and (max-width:576px) {
+    /* *{
+       border: 1px solid red;
+    } */
+    .body {
+        overflow-x: hidden !important;
+    }
+    
     nav {
         flex-direction: column;
         margin: 0 15px;
         align-items: start;
+    
 
     }
 
@@ -155,6 +163,9 @@
         flex-direction: column;
         gap: 16px;
     }
+    .img-1 p, .img-3 p, .img-2 p{
+        margin-right: 200px;
+    }
 
     .main-img {
         width: 98%;
@@ -277,7 +288,12 @@
 
 
 
-
+    #parfact-up-btn{
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 170px;
+    }
+      
 
 
     /* Perfect-section style start */
@@ -314,6 +330,7 @@
 
     .Perfect-title button {
         margin-bottom: 15px;
+        margin-left: 65px;
     }
 
     .Perfect-img {
@@ -337,24 +354,36 @@
 
     .Newsletter-container {
         flex-direction: column;
+        
     }
 
     .Newsletter-form {
        width: 100%;
        height: 100%;
        margin-bottom: 10px;
+     
        
     }
-
+    .Newsletter-form h1{
+        margin-left: 210px;
+    }
+    .Newsletter-form p{
+        margin-left: 100px;
+    }
     .Newsletter-form input {
         width: 288px;
         height: 52px;
+        margin-left: 150px;
+    }
+    .Newsletter-form input::placeholder{
+        margin-left: 5px;
     }
 
     .Subscribe-btn {
         width: 288px;
         height: 52px;
         margin-bottom: 24px;
+        margin-left: 150px;
 
     }
 
@@ -375,8 +404,8 @@
     .circle {
         width: 150.023px;
         height: 70.268px;
-        margin-top: -100px;
-        margin-left: 380px;
+        margin-top: -105px;
+        margin-left: 350px;
 
     }
 
@@ -388,6 +417,7 @@
     /* speacial section style */
     .service-section {
         margin: 2px 3px;
+        margin-bottom: 20px;
     }
 
     .service-section h1 {
@@ -398,6 +428,7 @@
     .service-container {
         grid-template-columns: 1fr;
         margin-left: 1px;
+       
     }
 
     .service {
@@ -405,10 +436,11 @@
         /* height: 10px; */
         margin-left: 0;
         margin-right: 2px;
+        
     }
 
     .service p {
-        margin-bottom: 0px;
+        margin-bottom: 15px;
     }
 
 
@@ -416,7 +448,8 @@
     footer {
        
         width: 100%;
-        height: 500px;
+        height: 600px;
+        
     }
 
     .footer-container {
@@ -430,6 +463,7 @@
     .footer-p{
         width: 400px;
         margin: 0 auto;
+        
     }
 
     
